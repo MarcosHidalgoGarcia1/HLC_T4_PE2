@@ -1,0 +1,73 @@
+* {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+  }
+
+body {
+    margin: 0;
+    background-color: #E2E5E7;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.menu {
+    background-color: #85CEF0;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.menu button {
+    width: 50px;
+    background-color: #F8F8FF;
+    color: black;
+    border: 0;
+    border-radius: 5px;
+    padding: 2% 40%;
+    margin: 5%;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.menu button:hover {
+    background-color: #E2E5E7;
+}
+
+.tab {
+    display: none;
+    margin-left: 2%;
+}
+
+.tab.active {
+    display: block;
+}
+
+form {
+    background-color: white;
+    padding: 200px;
+    margin-left: 40%;
+    margin-top: 10%;
+    box-shadow: 2px 3px 10px grey;
+    display: flex;
+}
+
+form input, textarea {
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.form input, button{
+    background-color: #F9DC6A;
+    border: 0%;
+    border-radius: 2px;
+    border-color: #F9DC6A;
+    padding: 15px 20px;
+}
+
+
+
